@@ -59,4 +59,29 @@ for (let num of numbers) {
 }
 console.log(largest);
 
-console.log('-------------------------------------------');
+console.log('-----------------------------------------');
+
+//------------------------------------------------------------------------------------------------------
+
+// Task 3
+
+// 1.)
+console.log('Fruit list:')
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+const target = "Mango";
+let found = false;
+
+
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits[i] === target) {
+        found = true;
+        break; 
+    }
+}
+
+// 2.) and 3.)
+if (found) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
