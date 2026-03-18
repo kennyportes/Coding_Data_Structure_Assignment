@@ -15,3 +15,10 @@ console.log("Original student list:");
 for (let i = 0; i < students.length; i++) {
     console.log(students[i]);
 }
+
+
+console.log('------------------------');
+
+// ------------------------------------------------------------------------------------------------------
+
+// Task 2
